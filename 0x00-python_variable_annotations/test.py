@@ -1,2 +1,4 @@
-def concat(str1: str, str2: str) -> str:
-    return str1 + str2
+from typing import Union,Tuple, List
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    return(k, v**2)
